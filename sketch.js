@@ -49,11 +49,13 @@ function setup(){
 function draw(){
     //if(backgroundImg)
     background(0);
+    textSize(25);
+    text("SCORE : "+score,750,40);
     Engine.update(engine);
 
     ground.display();
     stand.display();
-    fill("skyblue");
+    fill("white");
     box1.display();
     box2.display();
     box3.display();
